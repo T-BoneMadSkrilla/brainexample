@@ -1,25 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Machine learning</title>
-</head>
-<body>
-    <h1>Brain JS</h1>
-    <h2>Tweet Decoder</h2>
+ <head>
+   <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+   <title>Machine learning</title>
+   <link rel="stylesheet" href="./index.css">
+ </head>
+ <body>
+     <div class="wholeContainer">
 
-    <!-- <input type="text"> </input> -->
-
-    <form onsubmit="execute()">
-        Enter tweet: <input type="text">
-        <input type="submit">
-        <!-- <button> Submit </button> -->
-      </form>
-
-    <script src="./brain.js"></script>
-    <script src="./training-data.js"></script>
-    <script src="./scripts.js"></script>
-</body>
+         <h1 class="centered">Brain JS</h1>
+         <h2 class="centered">Tweet Decoder</h2>
+         
+         <script src="./brain.js"></script>
+         <script src="./training-data.js"></script>
+         <script src="./scripts.js"></script>
+         <form class="centered">
+             Enter tweet: <input type="text" value="" />
+             <input type="submit" onclick="execute(this.form)" />
+            </form>
+            <img src="./kkcrying.jpg" height="300" width="400">
+            <h2>OR</h2>
+            <img src="./trump.jpg" height="300" width="400">
+        </div>
+ </body>
 </html>
