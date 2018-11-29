@@ -1,5 +1,7 @@
 body {
-    background: rgb(172, 172, 199);
+    background-image: linear-gradient(to bottom, #123e80, #2f427c, #3f4778, #4b4c75, #545271);
+    opacity: 10%;
+    
 }
 
 .centered{
@@ -18,5 +20,6 @@ body {
 	flex-wrap: nowrap;
 	justify-content: center;
 	align-items: center;
-	align-content: center;
+    align-content: center;
+    color: white;
 }
